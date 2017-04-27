@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//切换
+    UIButton *lightButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    lightButton.frame = CGRectMake(40, 50, 30, 40);
+     [lightButton setBackgroundImage:[UIImage imageNamed:@"关灯.jpg"] forState:UIControlStateNormal];
+    [lightButton setBackgroundImage:[UIImage imageNamed:@"开灯.jpg"] forState:UIControlStateSelected];
+    [lightButton addTarget:self action:@selector(selected:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:lightButton];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2D306574-C8B8-49CF-94FE-5D4B67D5C807</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>button-exchangeSelector</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

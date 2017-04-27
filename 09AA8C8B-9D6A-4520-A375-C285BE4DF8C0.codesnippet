@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> //配置导航栏的背景颜色
+    [self.navigationController.navigationBar setBackgroundColor:[UIColor orangeColor]];
+    //配置导航栏的图片
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"nav_bg"] forBarMetrics:UIBarMetricsDefault];
+    //配置导航栏的主色调（控件的颜色）
+    [self.navigationController.navigationBar setTintColor:[UIColor brownColor]];
+    //配置导航栏标题的颜色
+    NSDictionary *attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:25],NSForegroundColorAttributeName:[UIColor redColor]};</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>09AA8C8B-9D6A-4520-A375-C285BE4DF8C0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>navigationbar _edittor</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
