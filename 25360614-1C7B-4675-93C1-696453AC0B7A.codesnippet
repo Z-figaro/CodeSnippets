@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//隔离上下文
+    [UIView beginAnimations:nil context:nil];
+    //
+    [UIView setAnimationDuration:1];//动画时间
+    [UIView setAnimationRepeatCount:0];//重复次数
+    //**特色设置**动画的变化规律，类似撞机，加速，引力效果
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
+    _imageView.center = CGPointMake(375/2, 240);//位置
+    [UIView commitAnimations];//提交</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>25360614-1C7B-4675-93C1-696453AC0B7A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIView_init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

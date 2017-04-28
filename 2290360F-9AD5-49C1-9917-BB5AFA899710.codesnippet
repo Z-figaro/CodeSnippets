@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 175, 50)];
+    label.text = @"“宽窄巷子”是成都市三大历史文化保护区之一，由宽巷子、窄巷子和井巷子三条平行排列的城市老式街道及其之间的四合院群落组成，于上世纪80年代列入《成都历史文化名城保护规划》。2008年6月，为期三年的宽窄巷子改造工程全面竣工。修葺一新的宽窄巷子由45个清末民初风格的四合院落、兼具艺术与文化底蕴的花园洋楼、新建的宅院式精品酒店等各具特色的建筑群落组成。";
+    /*
+     label高度自适应
+     制定宽和高的范围
+     定宽算高
+     */
+    //nsstring的方法
+    label.font = [UIFont fontWithName:@"Arial" size:20];
+    [label setNumberOfLines:0];
+    NSDictionary *attributes = @{NSFontAttributeName:[UIFont fontWithName:@"Arial" size:20]};
+    CGRect rect = [label.text boundingRectWithSize:CGSizeMake(175, 4000) options:NSStringDrawingTruncatesLastVisibleLine |
+                         NSStringDrawingUsesLineFragmentOrigin |
+                         NSStringDrawingUsesFontLeading
+//                         NSStringDrawingUsesDeviceMetrics
+                          attributes:attributes context:nil];
+    label.frame = CGRectMake(100, 100, rect.size.width, rect.size.height);
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:label];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2290360F-9AD5-49C1-9917-BB5AFA899710</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>label self-adaption</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

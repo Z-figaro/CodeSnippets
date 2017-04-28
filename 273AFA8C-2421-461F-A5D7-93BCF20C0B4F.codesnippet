@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+    // Override point for customization after application launch.
+//检测运行到那步
+    NSLog(@"%s",__func__);
+    
+    NSLog(@"%@",NSStringFromSelector(_cmd));
+    //界面出现的过程
+    /*
+     1.建立window
+     
+     */
+                                             //当前屏幕的大小
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];//建对象
+    _window.backgroundColor = [UIColor whiteColor];//设属性
+    
+    _window.rootViewController = [[ViewController alloc]init];
+    //流程控制器
+    [_window makeKeyAndVisible];//用
+    
+    
+    
+    return YES;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>273AFA8C-2421-461F-A5D7-93BCF20C0B4F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>_window init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

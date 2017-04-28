@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//头像
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(275/2, 170, 100, 100)];
+//    imageView.image = [UIImage imageNamed:@"zhou.png"];
+//    view有一个属性layer，通过设置cornerRadius来设置圆角的半径，view是正方形的才能保证通过调整圆角半径来形成圆形头像
+    [imageView.layer setCornerRadius:CGRectGetHeight([imageView bounds]) / 2];
+    imageView.layer.masksToBounds = YES;
+//    然后再给图层添加一个有色的边框，类似qq空间头像那样
+    imageView.layer.borderWidth = 5;
+    imageView.layer.borderColor = [[UIColor whiteColor] CGColor];
+    imageView.layer.contents = (id)[[UIImage imageNamed:@"zhou.png"] CGImage];
+        [self.view addSubview:imageView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0D11C342-D334-4C6B-9BB9-5E83F832B214</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>imageView_setCorner</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

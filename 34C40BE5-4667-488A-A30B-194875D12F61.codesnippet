@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>setTableViewCell</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> // 在表格视图队列中根据标识符寻找可重用的单元格
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:KUITabelViewCellIdentifier];
+    // 如果没有找到，则新建
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:KUITabelViewCellIdentifier];
+    }
+    //set cell.textlabel
+    cell.textLabel.text = ;
+    cell.detailTextLabel.text = ;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>34C40BE5-4667-488A-A30B-194875D12F61</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My_setTableViewCell</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
