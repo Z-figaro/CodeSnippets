@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  Autumn
+//
+//  Created by cbgolf  on 2017/10/12.
+//  Copyright © 2017年 cbgolf. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/**Dubug相关*/
+
+#ifdef DEBUG
+#define MyLog(format,...)  NSLog((@"[函数名:%s]\n" "[行号:%d]\n" format),__FUNCTION__,__LINE__,##__VA_ARGS__)
+#else
+#define MyLog(...)
+#endif
+
+//RGB
+#define RGBCOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#define UIColorFromRGB(rgbValue,ALPHA) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(ALPHA)]
+///屏幕宽
+#define screenwidth [UIScreen mainScreen].bounds.size.width
+///屏幕高
+#define screenheight [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_pch */

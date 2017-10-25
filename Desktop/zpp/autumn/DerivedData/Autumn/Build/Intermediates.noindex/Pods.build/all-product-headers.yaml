@@ -1,0 +1,599 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AFAutoPurgingImageCache.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFHTTPSessionManager.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFImageDownloader.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkActivityIndicatorManager.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkReachabilityManager.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-Swift.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworking-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-umbrella.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/Target Support Files/AFNetworking/AFNetworking-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/AFNetworking/AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFSecurityPolicy.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLRequestSerialization.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLResponseSerialization.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLSessionManager.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIActivityIndicatorView+AFNetworking.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+AFNetworking.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+AFNetworking.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+AFNetworking.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIKit+AFNetworking.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIProgressView+AFNetworking.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIRefreshControl+AFNetworking.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIWebView+AFNetworking.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/AFNetworking/AFNetworking.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AFNetworking.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/BANetManager/BANetManager.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BANetManager-Swift.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/BANetManager/BANetManager.framework/Headers/BANetManager-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "BANetManager-umbrella.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/Target Support Files/BANetManager/BANetManager-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "BANetManager.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/BANetManager/BANetManager/BANetManager/BANetManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "BANetManagerCache.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/BANetManager/BANetManager/BANetManager/BANetManagerCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "BANetManager_OC.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/BANetManager/BANetManager/BANetManager/BANetManager_OC.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+CompressImage.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/BANetManager/BANetManager/BANetManager/UIImage+CompressImage.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/BANetManager/BANetManager.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/BANetManager.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "IQBarButtonItem.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/IQToolbar/IQBarButtonItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQKeyboardManager-Swift.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQKeyboardManager-umbrella.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/Target Support Files/IQKeyboardManager/IQKeyboardManager-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQKeyboardManager.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/IQKeyboardManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQKeyboardManagerConstants.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/Constants/IQKeyboardManagerConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQKeyboardReturnKeyHandler.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/IQKeyboardReturnKeyHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQPreviousNextView.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/IQToolbar/IQPreviousNextView.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQTextView.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/IQTextView/IQTextView.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQTitleBarButtonItem.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQToolbar.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/IQToolbar/IQToolbar.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQUIScrollView+Additions.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/Categories/IQUIScrollView+Additions.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQUITextFieldView+Additions.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQUIView+Hierarchy.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/Categories/IQUIView+Hierarchy.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQUIView+IQKeyboardToolbar.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQUIViewController+Additions.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/Categories/IQUIViewController+Additions.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQUIWindow+Hierarchy.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/IQKeyboardManager/IQKeyboardManager/Categories/IQUIWindow+Hierarchy.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/IQKeyboardManager.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/NinaPagerView/NinaPagerView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NinaBaseView.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/NinaPagerView/NinaPagerView/NinaBaseView.h"
+        },
+        {
+          'type': 'file',
+          'name': "NinaPagerView-Swift.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/NinaPagerView/NinaPagerView.framework/Headers/NinaPagerView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "NinaPagerView-umbrella.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/Target Support Files/NinaPagerView/NinaPagerView-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "NinaPagerView.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/NinaPagerView/NinaPagerView/NinaPagerView.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIParameter.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/NinaPagerView/NinaPagerView/UIParameter.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+ViewController.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/NinaPagerView/NinaPagerView/UIView+ViewController.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/NinaPagerView/NinaPagerView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NinaPagerView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/Pods_Autumn.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Autumn-umbrella.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/Target Support Files/Pods-Autumn/Pods-Autumn-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Autumn-Swift.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/Pods_Autumn.framework/Headers/Pods_Autumn-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/Pods_Autumn.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-Autumn.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/SDCycleScrollView/SDCycleScrollView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SDCollectionViewCell.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDCycleScrollView/SDCycleScrollView/Lib/SDCycleScrollView/SDCollectionViewCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDCycleScrollView-Swift.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/SDCycleScrollView/SDCycleScrollView.framework/Headers/SDCycleScrollView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDCycleScrollView-umbrella.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/Target Support Files/SDCycleScrollView/SDCycleScrollView-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDCycleScrollView.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDCycleScrollView/SDCycleScrollView/Lib/SDCycleScrollView/SDCycleScrollView.h"
+        },
+        {
+          'type': 'file',
+          'name': "TAAbstractDotView.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDCycleScrollView/SDCycleScrollView/Lib/SDCycleScrollView/PageControl/TAAbstractDotView.h"
+        },
+        {
+          'type': 'file',
+          'name': "TAAnimatedDotView.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDCycleScrollView/SDCycleScrollView/Lib/SDCycleScrollView/PageControl/TAAnimatedDotView.h"
+        },
+        {
+          'type': 'file',
+          'name': "TADotView.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDCycleScrollView/SDCycleScrollView/Lib/SDCycleScrollView/PageControl/TADotView.h"
+        },
+        {
+          'type': 'file',
+          'name': "TAPageControl.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDCycleScrollView/SDCycleScrollView/Lib/SDCycleScrollView/PageControl/TAPageControl.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+SDExtension.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDCycleScrollView/SDCycleScrollView/Lib/SDCycleScrollView/UIView+SDExtension.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/SDCycleScrollView/SDCycleScrollView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDCycleScrollView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSData+ImageContentType.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDImageCache.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/SDImageCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImage-Swift.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImage-umbrella.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageCompat.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageDecoder.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageDownloader.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageDownloaderOperation.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageManager.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/SDWebImageManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageOperation.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImagePrefetcher.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+WebCache.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+GIF.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/UIImage+GIF.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+MultiFormat.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+HighlightedWebCache.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+WebCache.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+WebCacheOperation.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SVIndefiniteAnimatedView.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressAnimatedView.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-Swift.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-umbrella.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVRadialGradientLayer.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SVProgressHUD.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/YYCache/YYCache.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "YYCache-Swift.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/YYCache/YYCache.framework/Headers/YYCache-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYCache-umbrella.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/Target Support Files/YYCache/YYCache-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYCache.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/YYCache/YYCache/YYCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYDiskCache.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/YYCache/YYCache/YYDiskCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYKVStorage.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/YYCache/YYCache/YYKVStorage.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYMemoryCache.h",
+          'external-contents': "/Users/guowei/Downloads/Autumn/Pods/YYCache/YYCache/YYMemoryCache.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Products/Debug-iphoneos/YYCache/YYCache.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/guowei/Downloads/Autumn/DerivedData/Autumn/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/YYCache.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

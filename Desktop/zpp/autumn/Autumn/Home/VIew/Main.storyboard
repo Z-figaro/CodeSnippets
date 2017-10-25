@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zPi-LG-m3l">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Tabbar Controller-->
+        <scene sceneID="0c6-qs-IHy">
+            <objects>
+                <tabBarController storyboardIdentifier="MainVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zPi-LG-m3l" customClass="MainTabbarController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" id="dnx-KR-HT2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.48283049459999999" green="0.72704565529999998" blue="0.68213063480000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="selectedImageTintColor">
+                                <color key="value" red="0.48283049459999999" green="0.72704565529999998" blue="0.68213063480000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="TabBartintColor">
+                                <color key="value" red="0.48283049459999999" green="0.72704565529999998" blue="0.68213063480000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Ueg-RE-j7R" kind="relationship" relationship="viewControllers" id="pLe-DL-1bW"/>
+                        <segue destination="WR2-Br-hDi" kind="relationship" relationship="viewControllers" id="fVW-pI-T17"/>
+                        <segue destination="xGW-Q6-CGQ" kind="relationship" relationship="viewControllers" id="bCL-wI-SQk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rnH-vU-C2X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-41" y="-167"/>
+        </scene>
+        <!--Booking-->
+        <scene sceneID="uGL-X3-ixE">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Booking" id="Ueg-RE-j7R" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="dingchang1" selectedImage="dingchang2" id="x5t-P7-tns"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OsV-FT-jYE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876" y="-469"/>
+        </scene>
+        <!--UserCenter-->
+        <scene sceneID="dvc-Dw-qY8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="UserCenter" id="xGW-Q6-CGQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="my1" selectedImage="my2" id="CYx-uk-X8A"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1SZ-cy-FFZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875" y="-85"/>
+        </scene>
+        <!--Event-->
+        <scene sceneID="bxc-mF-kHy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Event" id="WR2-Br-hDi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="match2" selectedImage="match1" id="9la-Ht-vDj"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fZv-cK-pZx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875" y="-290"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dingchang1" width="24" height="36"/>
+        <image name="dingchang2" width="24" height="36"/>
+        <image name="match1" width="25" height="37"/>
+        <image name="match2" width="25" height="37"/>
+        <image name="my1" width="21" height="38"/>
+        <image name="my2" width="21" height="38"/>
+    </resources>
+</document>

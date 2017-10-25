@@ -1,0 +1,6 @@
+framework module Pods_Autumn {
+  umbrella header "Pods-Autumn-umbrella.h"
+
+  export *
+  module * { export * }
+}

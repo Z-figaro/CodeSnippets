@@ -1,0 +1,15 @@
+platform:ios,'9.0'
+use_frameworks!
+
+target 'Autumn' do
+	
+	pod 'AFNetworking', '~> 3.1.0'
+	pod 'SVProgressHUD'
+        pod 'IQKeyboardManager'
+        pod 'NinaPagerView'
+        pod 'SDWebImage', '~>3.8'
+	pod 'SDCycleScrollView'
+	pod 'YYCache'
+	pod 'BANetManager'
+	pod 'JSONModel'
+end
