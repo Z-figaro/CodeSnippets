@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
+<<<<<<< HEAD
 	<string>zpProperty</string>
+=======
+	<string>zppProperty</string>
+>>>>>>> 1cedbb07abf506e49b60b3da03b3ad4b2b66324f
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>

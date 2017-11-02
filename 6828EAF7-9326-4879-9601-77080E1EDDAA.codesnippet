@@ -2,30 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-<<<<<<< HEAD
-	<string>zppBaseMethod</string>
-=======
-	<string>userData&amp;InterfaceMethods</string>
->>>>>>> 1cedbb07abf506e49b60b3da03b3ad4b2b66324f
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Init methods
-- (void)initDataSource{
-    
-}
-- (void)initUserInterface{
-    
-}</string>
+	<string></string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A57F3814-F61E-4213-9756-93E143BD1315</string>
+	<string>6828EAF7-9326-4879-9601-77080E1EDDAA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My_(void)dataSource&amp;userInterface</string>
+	<string></string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
