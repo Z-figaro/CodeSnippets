@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppHUDdismiss</string>
+	<string>zppToken</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//取消提示器
-- (void)dismiss{
+	<string>NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+    params[@"X-Auth-Token"] =[ShareUserModel getToken] ;
     
-    [SVProgressHUD dismiss];
-    
-}</string>
+    // 自定义添加请求头
+    NSDictionary *headerDict = params;
+    BANetManagerShare.httpHeaderFieldDictionary = headerDict;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1D7B6AE8-AD3A-497E-BE85-CBF8C239360F</string>
+	<string>1FCC30C4-0A57-4B9E-B192-D221D77007BD</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My hudDismiss</string>
+	<string>myToken</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,24 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppHUDdismiss</string>
+	<string>zppUnwind</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//取消提示器
-- (void)dismiss{
+	<string>//他界面返回到此界面调用的方法
+- (IBAction)&lt;# 返回页面 #&gt;UnwindSegue:(UIStoryboardSegue *)unwindSegue{
     
-    [SVProgressHUD dismiss];
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1D7B6AE8-AD3A-497E-BE85-CBF8C239360F</string>
+	<string>765A5D9B-23FD-462E-AF67-4B69D0310DCC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My hudDismiss</string>
+	<string>storyboard backmethod</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

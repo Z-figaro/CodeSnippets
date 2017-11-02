@@ -3,24 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppHUDdismiss</string>
+	<string>jsContext</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//取消提示器
-- (void)dismiss{
-    
-    [SVProgressHUD dismiss];
-    
-}</string>
+	<string> context[&lt;# code #&gt;] = ^(){
+        &lt;# code #&gt;
+    };</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1D7B6AE8-AD3A-497E-BE85-CBF8C239360F</string>
+	<string>71AFA995-D368-4844-9AB6-E9676CB68E8D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>jscontext method</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My hudDismiss</string>
+	<string>my code</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

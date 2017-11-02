@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zppCollection</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - UICollectionDataSource methods
+
+//有多少分区
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+    return 2;
+}
+//每个分区有多少个cell
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return 25;
+}
+//获取指定分区内的cell
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    static NSString *cellId = @"CollectionViewCell";
+    //从复用队列获取 cell (需要提前注册)
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
+    //设置背景颜色
+    cell.backgroundColor = [UIColor yellowColor];
+    return cell;
+}
+#pragma mark - 获取分区头尾视图
+//创建 分区头尾视图调用
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
+    //创建/获取头尾视图的时候也要用复用队列
+    //判断kind 来区分头尾
+    if ([kind isEqualToString:UICollectionElementKindSectionHeader]) {
+        //头视图
+        //(如果满足不了需要那么就定制)
+        UICollectionReusableView *header = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"Header" forIndexPath:indexPath];
+        header.backgroundColor = [UIColor greenColor];
+        return header;
+    }else {
+        //尾视图
+        //复用队列获取
+        UICollectionReusableView *footer = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"Footer" forIndexPath:indexPath];
+        footer.backgroundColor = [UIColor yellowColor];
+        return footer;
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7FE0EC4C-420A-4452-9D04-F31B2500BC02</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>collectionDate&amp;delegate</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>MyCollection</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

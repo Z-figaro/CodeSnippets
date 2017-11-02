@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppHUDdismiss</string>
+	<string>zppGoto</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//取消提示器
-- (void)dismiss{
-    
-    [SVProgressHUD dismiss];
-    
-}</string>
+	<string>  UIStoryboard *story = [UIStoryboard storyboardWithName:@"&lt;# code #&gt;" bundle:nil];
+    &lt;# name #&gt; *view = [story instantiateViewControllerWithIdentifier:@"&lt;# code #&gt;"];
+    [self presentViewController: view animated:YES completion:nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1D7B6AE8-AD3A-497E-BE85-CBF8C239360F</string>
+	<string>0FFC73F7-DD22-46F9-BEAC-17456CDCB625</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My hudDismiss</string>
+	<string>storyboard jumper</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

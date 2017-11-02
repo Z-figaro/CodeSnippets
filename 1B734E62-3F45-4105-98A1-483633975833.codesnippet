@@ -3,24 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppHUDdismiss</string>
+	<string>zppBool</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//取消提示器
-- (void)dismiss{
-    
-    [SVProgressHUD dismiss];
-    
-}</string>
+	<string>@property (nonatomic, assign) bool&lt;#code#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1D7B6AE8-AD3A-497E-BE85-CBF8C239360F</string>
+	<string>1B734E62-3F45-4105-98A1-483633975833</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My hudDismiss</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,29 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rewrite_TableView</string>
+	<string>zppBackgroudPatch</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UITableView *)tableView{
-    if (!_tableView) {
-        //init TableView
-        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) - 64) style:UITableViewStylePlain];
-        //set delegate
-        _tableView.delegate = self;
-        //set data delegate
-        _tableView.dataSource = self;
-    }
-    return _tableView;
-}</string>
+	<string>  dispatch_async(dispatch_queue_create("background", 0), ^{
+                 &lt;# code #&gt;
+            });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>60E4B271-B310-4A84-8D14-60E9FB9A99AF</string>
+	<string>53D1C283-3A45-4D47-A591-F1B5C4B5451C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My_rewrite_tableView</string>
+	<string>backgroudPatch</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

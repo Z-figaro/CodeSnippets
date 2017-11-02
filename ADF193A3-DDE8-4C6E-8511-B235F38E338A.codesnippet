@@ -3,24 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppHUDdismiss</string>
+	<string>zppEncryptionToken</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//取消提示器
-- (void)dismiss{
-    
-    [SVProgressHUD dismiss];
-    
-}</string>
+	<string>//随机数1--100
+    NSInteger idValue = (arc4random() % 100) + 1;
+    token *tokenValue = [ZppRealmManager queryObjWithPrimaryKeyValue:[NSString stringWithFormat:@"%ld",idValue]
+                                     targetClass:[token class]];
+    NSString *encryptionToken = [Encryption MD5ForUpper32Bate:[NSString stringWithFormat:@"%@",tokenValue.token]];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1D7B6AE8-AD3A-497E-BE85-CBF8C239360F</string>
+	<string>ADF193A3-DDE8-4C6E-8511-B235F38E338A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My hudDismiss</string>
+	<string>myID&amp;TOKEN</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
