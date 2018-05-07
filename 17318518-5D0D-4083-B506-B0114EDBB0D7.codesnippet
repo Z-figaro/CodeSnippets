@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zppPost</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[ShareNetManager POST:&lt;# code #&gt; parameters:params progress:^(NSProgress * _Nonnull uploadProgress) {
+ 
+ } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+     
+     NSString *code = [responseObject[@"code"] stringValue];
+     NSLog(@"code == %@",code);
+     if ([code isEqualToString:@"200"]) {
+         &lt;#statements#&gt;
+     } else {
+         [SVProgressHUD showErrorWithStatus:responseObject[@"msg"]];
+         [self performSelector:@selector(dismiss) withObject:nil afterDelay:0.8];
+     }
+     
+ } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+     NSLog(@"fail");
+     [SVProgressHUD showErrorWithStatus:@"网络错误"];
+     [self performSelector:@selector(dismiss) withObject:nil afterDelay:0.8];
+     }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>17318518-5D0D-4083-B506-B0114EDBB0D7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>myPost</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

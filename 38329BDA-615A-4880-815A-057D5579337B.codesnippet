@@ -9,8 +9,8 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSString *url = [NSString stringWithFormat:@"%@%@",BaseURL,&lt;#* needURL*#&gt;];
-    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+	<string>NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+    params[@"&lt;#* key *#&gt;"] =&lt;#* value *#&gt; ;
     params[@"&lt;#* key *#&gt;"] =&lt;#* value *#&gt; ;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>38329BDA-615A-4880-815A-057D5579337B</string>

@@ -9,8 +9,8 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSMutableDictionary *parmas = [[NSMutableDictionary alloc]init];
-    parmas[@"&lt;#* need parmas*#&gt;"] = &lt;#*code*#&gt;;</string>
+	<string>NSMutableDictionary *params = [[NSMutableDictionary alloc]init];
+    params[@"&lt;#* need parmas*#&gt;"] = &lt;#*code*#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>975A7276-1A05-4DDF-8E7B-96F1DE60EAC6</string>
 	<key>IDECodeSnippetLanguage</key>
