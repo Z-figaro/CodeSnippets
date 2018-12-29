@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zppSendValue</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - ———————  send Value———————
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    &lt;# code #&gt;
+    if ([segue.identifier isEqual:@"&lt;# code #&gt;"]) {
+        
+        &lt;# code #&gt; *vc = segue.destinationViewController;
+        vc.&lt;# code #&gt; = &lt;# code #&gt;;
+        
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E558B653-B850-4ADE-847E-51F599287418</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>sb界面正向传值</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>storyBoard sendValue</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

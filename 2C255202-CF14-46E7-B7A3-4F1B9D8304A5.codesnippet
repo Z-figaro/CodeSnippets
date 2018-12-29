@@ -2,25 +2,28 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppHUDdismiss</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//取消提示器
-- (void)dismiss{
+	<string>#pragma mark - ———————  send Value———————
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
-    [SVProgressHUD dismiss];
-    
+     
+    if ([segue.identifier isEqual:@"&lt;# code #&gt;"]) {
+       
+        &lt;# code #&gt; *vc = segue.destinationViewController;
+        vc.&lt;# code #&gt; = &lt;# code #&gt;;
+        
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1D7B6AE8-AD3A-497E-BE85-CBF8C239360F</string>
+	<string>2C255202-CF14-46E7-B7A3-4F1B9D8304A5</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My hudDismiss</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

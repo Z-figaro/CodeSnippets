@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zppGet</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[[AppConfig shareConfig] showLoadingViewIntoSuperView:self.view];
+    [[NetRequestManager manager] GET:&lt;#(NSString *)#&gt; inWhichView:&lt;#(UIView *)#&gt; parameters:&lt;#(id)#&gt; success:^(NSURLSessionDataTask *task, BOOL isPortRight, id responseObject) {
+        [[AppConfig shareConfig] hiddenLoadingViewBySuperView:self.view];
+        if (isPortRight) {
+            &lt;#code#&gt;
+        }
+        
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+        [[AppConfig shareConfig] hiddenLoadingViewBySuperView:self.view];
+        }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F020DF35-ED4D-4CAD-B7A2-5257C045A1CB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>交子工程网络请求get</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>net</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

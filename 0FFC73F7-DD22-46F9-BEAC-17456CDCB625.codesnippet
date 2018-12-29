@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppGoto</string>
+	<string>zppJumpTo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -16,6 +16,8 @@
 	<string>0FFC73F7-DD22-46F9-BEAC-17456CDCB625</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>sb 根据界面跳转</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>storyboard jumper</string>
 	<key>IDECodeSnippetUserSnippet</key>

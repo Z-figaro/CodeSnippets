@@ -3,25 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppJumpBackTo</string>
+	<string>zppWeakself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//他界面返回到此界面调用的方法
-- (IBAction)&lt;# 返回页面 #&gt;UnwindSegue:(UIStoryboardSegue *)unwindSegue{
-    
-    
-}</string>
+	<string> __weak typeof(self) weakSelf = self;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>765A5D9B-23FD-462E-AF67-4B69D0310DCC</string>
+	<string>C5A791E1-B985-4AAD-A91B-12D1AFEB5FF4</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>sb 反向跳转</string>
+	<string>弱引用</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>storyboard backmethod</string>
+	<string>weakSelf</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

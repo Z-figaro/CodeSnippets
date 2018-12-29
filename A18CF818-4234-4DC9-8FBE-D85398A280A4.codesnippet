@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppinitdata&amp;userinterface</string>
+	<string>zppBasePropoty</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -15,6 +15,8 @@
 	<string>A18CF818-4234-4DC9-8FBE-D85398A280A4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>基本属性</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>My_init_data&amp;interface</string>
 	<key>IDECodeSnippetUserSnippet</key>
