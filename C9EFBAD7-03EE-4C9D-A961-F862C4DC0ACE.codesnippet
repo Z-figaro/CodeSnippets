@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zpstrong</string>
+	<string>zppProperty</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#*type*#&gt;  *&lt;#*name*#&gt;;</string>
+	<string>@property (&lt;#*type*#&gt;, nonatomic) &lt;#*type*#&gt;  *&lt;#*name*#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C9EFBAD7-03EE-4C9D-A961-F862C4DC0ACE</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Strong Property</string>
+	<string>my Property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

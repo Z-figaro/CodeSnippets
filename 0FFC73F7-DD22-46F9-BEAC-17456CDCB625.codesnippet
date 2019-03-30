@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>zppJumpTo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - ——————— &lt;#标记描述#&gt;——————— </string>
+	<string>  UIStoryboard *story = [UIStoryboard storyboardWithName:@"&lt;# code #&gt;" bundle:nil];
+    &lt;# name #&gt; *view = [story instantiateViewControllerWithIdentifier:@"&lt;# code #&gt;"];
+    [self presentViewController: view animated:YES completion:nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6DF79DAB-3F45-4C59-8EFD-23D940AB8101</string>
+	<string>0FFC73F7-DD22-46F9-BEAC-17456CDCB625</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mark</string>
+	<string>sb 根据界面跳转</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My_MARK</string>
+	<string>storyboard jumper</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

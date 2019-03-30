@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>jsContext</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - ——————— &lt;#标记描述#&gt;——————— </string>
+	<string> context[&lt;# code #&gt;] = ^(){
+        &lt;# code #&gt;
+    };</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6DF79DAB-3F45-4C59-8EFD-23D940AB8101</string>
+	<string>71AFA995-D368-4844-9AB6-E9676CB68E8D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mark</string>
+	<string>jscontext method</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My_MARK</string>
+	<string>my code</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

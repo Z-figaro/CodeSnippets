@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>zppXibLoad</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - ——————— &lt;#标记描述#&gt;——————— </string>
+	<string>[[[NSBundle mainBundle] loadNibNamed:@"&lt;# code #&gt;" owner:self options:nil] lastObject];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6DF79DAB-3F45-4C59-8EFD-23D940AB8101</string>
+	<string>AB2D4E46-2C61-483A-B6E8-5014F4EB30B2</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mark</string>
+	<string>xib 加载方式</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My_MARK</string>
+	<string>xib load</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

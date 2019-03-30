@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>zppStrongSelf</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - ——————— &lt;#标记描述#&gt;——————— </string>
+	<string> __strong __typeof(weakSelf)strongSelf = weakSelf;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6DF79DAB-3F45-4C59-8EFD-23D940AB8101</string>
+	<string>CA2B2A65-D6CF-4B61-9497-5646140CE0C0</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mark</string>
+	<string>强引用</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My_MARK</string>
+	<string>zppStrongSelf</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

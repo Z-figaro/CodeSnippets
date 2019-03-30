@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zppPutNet</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(void)putWithURL:(NSString *)url withHeader:(NSDictionary *)header withParams:(NSDictionary *)params{
+    
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
+    
+    request.HTTPMethod = @"PUT";
+    
+    request.allHTTPHeaderFields = header;//此处为请求头，类型为字典
+    
+    
+    NSString *msg =  [self dictionaryToJson:params];
+    
+    NSData *data = [msg dataUsingEncoding:NSUTF8StringEncoding];
+    
+    request.HTTPBody = data;
+    
+    [[[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        
+        NSLog(@"%@",[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
+        if ([[response valueForKey:@"status"] isEqualToString:@"200"]) {
+            &lt;#statements#&gt;
+        } else {
+            MyLog(@"error == %@",[response valueForKey:@"message"]);
+        }
+        
+    }] resume];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>608A415E-B1EC-4B40-839F-D4A8E1533A25</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>myPutHttp</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

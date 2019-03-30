@@ -4,6 +4,8 @@
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
 	<string>zppInitMethod</string>
+	<string>zppBaseMethod</string>
+	<string>userData&amp;InterfaceMethods</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>

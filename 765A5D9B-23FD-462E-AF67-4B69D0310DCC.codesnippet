@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>zppJumpBackTo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - ——————— &lt;#标记描述#&gt;——————— </string>
+	<string>//他界面返回到此界面调用的方法
+- (IBAction)&lt;# 返回页面 #&gt;UnwindSegue:(UIStoryboardSegue *)unwindSegue{
+    
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6DF79DAB-3F45-4C59-8EFD-23D940AB8101</string>
+	<string>765A5D9B-23FD-462E-AF67-4B69D0310DCC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mark</string>
+	<string>sb 反向跳转</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My_MARK</string>
+	<string>storyboard backmethod</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

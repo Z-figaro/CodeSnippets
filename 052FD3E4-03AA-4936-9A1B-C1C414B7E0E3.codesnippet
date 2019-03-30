@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zppAPPDelegateModule</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+  NSLog(@"%@  Group", NSStringFromSelector(_cmd));
+  return YES;
+}
+
+- (void)applicationWillResignActive:(UIApplication *)application
+{
+  NSLog(@"%@  Group", NSStringFromSelector(_cmd));
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application
+{
+  NSLog(@"%@  Group", NSStringFromSelector(_cmd));
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application
+{
+  NSLog(@"%@  Group", NSStringFromSelector(_cmd));
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+  NSLog(@"%@  Group", NSStringFromSelector(_cmd));
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+  NSLog(@"%@  Group", NSStringFromSelector(_cmd));
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>052FD3E4-03AA-4936-9A1B-C1C414B7E0E3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>app生命周期</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>delegateModule</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

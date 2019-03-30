@@ -2,18 +2,27 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zppBaseMethod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string></string>
+	<string>#pragma mark - Base
+-(void)initDataSource{
+    
+}
+-(void)initUserInterface{
+    
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6828EAF7-9326-4879-9601-77080E1EDDAA</string>
+	<string>E2E17B1E-E112-40D1-9E96-5C3522BC145F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string></string>
+	<string>My baseMethod</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

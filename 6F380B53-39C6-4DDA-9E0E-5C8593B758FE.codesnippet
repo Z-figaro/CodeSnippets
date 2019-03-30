@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
+
 	<string>zppSetTableCellData</string>
+
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -19,7 +21,9 @@
 //row
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return &lt;# code #&gt; ;
+
+    return _dataSource.count ;
+
 }
 //cell
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -28,13 +32,29 @@
     
     return cell;
 }
+
+//head
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    
+}
+//foot
+-(UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+    
+}
+//height
+-(CGFloat)tableView:(UITableView*)tableView heightForHeaderInSection:(NSInteger)section{
+    
+}
+-(CGFloat)tableView:(UITableView*)tableView heightForFooterInSection:(NSInteger)section{
+    
+}
+
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6F380B53-39C6-4DDA-9E0E-5C8593B758FE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>设置tableview的数据</string>
+
 	<key>IDECodeSnippetTitle</key>
 	<string>My_UITableViewDataSource</string>
 	<key>IDECodeSnippetUserSnippet</key>
@@ -43,3 +63,5 @@
 	<integer>2</integer>
 </dict>
 </plist>
+
+
