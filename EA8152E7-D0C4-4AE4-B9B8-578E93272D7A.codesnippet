@@ -3,25 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppInitMethod</string>
+	<string>zppBaseInit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Init methods
-- (void)initDataSource{
-    
-}
-- (void)initUserInterface{
-    
-}</string>
+	<string>   [self initDataSource];
+    [self initUserInterface];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A57F3814-F61E-4213-9756-93E143BD1315</string>
+	<string>EA8152E7-D0C4-4AE4-B9B8-578E93272D7A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My_(void)dataSource&amp;userInterface</string>
+	<string>My baseInit</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

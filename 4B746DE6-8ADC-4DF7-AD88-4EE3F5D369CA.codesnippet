@@ -3,25 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppInitMethod</string>
+	<string>zppDismiss</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Init methods
-- (void)initDataSource{
+	<string>//取消提示器
+- (void)dismiss{
     
-}
-- (void)initUserInterface{
+    [SVProgressHUD dismiss];
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A57F3814-F61E-4213-9756-93E143BD1315</string>
+	<string>4B746DE6-8ADC-4DF7-AD88-4EE3F5D369CA</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My_(void)dataSource&amp;userInterface</string>
+	<string>My hud dismiss</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

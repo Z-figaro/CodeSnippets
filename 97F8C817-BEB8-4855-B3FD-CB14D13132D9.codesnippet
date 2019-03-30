@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zppGetNet</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[SVProgressHUD show];
+    [BANetManager ba_request_GETWithUrlString:url isNeedCache:NO parameters:nil successBlock:^(id response) {
+        if ([[response objectForKey:@"status"] integerValue] == 200) {
+            [SVProgressHUD dismiss];
+            NSDictionary *dic = [NSDictionary changeType:[response objectForKey:@"data"]];
+            userScoreModel *model = [userScoreModel whc_ModelWithJson:dic];
+            NSDictionary *modelDic = [model whc_Dictionary];
+            &lt;#statements#&gt;
+        } else {
+            [SVProgressHUD dismiss];
+            [SVProgressHUD showErrorWithStatus:@"可能网络错误"];
+            [self performSelector:@selector(dismiss) withObject:nil afterDelay:0.8];
+        }
+    } failureBlock:^(NSError *error) {
+        [SVProgressHUD dismiss];
+        [SVProgressHUD showErrorWithStatus:@"网络错误"];
+        [self performSelector:@selector(dismiss) withObject:nil afterDelay:0.8];
+    } progressBlock:^(int64_t bytesProgress, int64_t totalBytesProgress) {
+        
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>97F8C817-BEB8-4855-B3FD-CB14D13132D9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My getNet</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

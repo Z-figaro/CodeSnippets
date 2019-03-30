@@ -3,25 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppInitMethod</string>
+	<string>zppDicToJson</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Init methods
-- (void)initDataSource{
+	<string>//字典转json格式字符串：
+- (NSString*)dictionaryToJson:(NSDictionary *)dic
+{
+    NSError *parseError = nil;
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&amp;parseError];
     
-}
-- (void)initUserInterface{
-    
+    return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A57F3814-F61E-4213-9756-93E143BD1315</string>
+	<string>331E2E78-0235-4C54-8A28-0B7E89730C41</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My_(void)dataSource&amp;userInterface</string>
+	<string>My dicToJson</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

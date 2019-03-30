@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zppTableCellFast</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (instancetype) cellWithTableView:(UITableView *)tableview{
+   
+    static NSString *identifier = @"&lt;#* value *#&gt;";
+    &lt;#* value *#&gt; *cell = [tableview dequeueReusableCellWithIdentifier:identifier];
+    
+    if (cell == nil) {
+        cell = [[[NSBundle mainBundle] loadNibNamed:identifier owner:nil options:nil] firstObject];
+    }
+    
+    return cell;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D87301FE-B342-4314-B69A-FFE6CE22D2F1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My cellFast</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

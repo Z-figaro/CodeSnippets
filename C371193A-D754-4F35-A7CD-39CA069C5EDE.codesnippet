@@ -6,7 +6,7 @@
 	<string>zppProperty</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, strong) &lt;#typeName#&gt; *&lt;#Name#&gt;;</string>
