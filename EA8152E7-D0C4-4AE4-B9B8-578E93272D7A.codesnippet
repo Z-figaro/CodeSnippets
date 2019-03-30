@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppBaseInit</string>
+	<string>zppBasedo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -15,8 +15,10 @@
 	<string>EA8152E7-D0C4-4AE4-B9B8-578E93272D7A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>基本的执行方法</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My baseInit</string>
+	<string>My baseDO</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

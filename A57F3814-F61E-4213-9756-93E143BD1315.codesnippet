@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppInitMethod</string>
 	<string>zppBaseMethod</string>
-	<string>userData&amp;InterfaceMethods</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -22,8 +20,10 @@
 	<string>A57F3814-F61E-4213-9756-93E143BD1315</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>基本的数据界面方法</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My_(void)dataSource&amp;userInterface</string>
+	<string>zppBaseMethod</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
