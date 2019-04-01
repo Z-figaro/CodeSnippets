@@ -3,27 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppBaseMethod</string>
+	<string>zppTableCellFast</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Init methods
-- (void)initDataSource{
+	<string>+ (instancetype) cellWithTableView:(UITableView *)tableview{
+   
+    static NSString *identifier = @"&lt;#* value *#&gt;";
+    &lt;#* value *#&gt; *cell = [tableview dequeueReusableCellWithIdentifier:identifier];
     
-}
-- (void)initUserInterface{
+    if (cell == nil) {
+        cell = [[[NSBundle mainBundle] loadNibNamed:identifier owner:nil options:nil] firstObject];
+    }
     
+    return cell;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A57F3814-F61E-4213-9756-93E143BD1315</string>
+	<string>D87301FE-B342-4314-B69A-FFE6CE22D2F1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>基本的数据界面方法</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zppBaseMethod</string>
+	<string>My cellFast</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

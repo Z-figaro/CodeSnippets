@@ -2,20 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zppBasedo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>  UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 170, 50, 50)];
-    imageView.image = [UIImage imageNamed:@"281800085zko.jpg"];
-    [self.view addSubview:imageView];</string>
+	<string>   [self initDataSource];
+    [self initUserInterface];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F97974E0-2200-4FE6-B2DB-2C640585F050</string>
+	<string>EA8152E7-D0C4-4AE4-B9B8-578E93272D7A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>基本的执行方法</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>imageView init</string>
+	<string>My baseDO</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

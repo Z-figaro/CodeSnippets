@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zppPutNet</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(void)putWithURL:(NSString *)url withHeader:(NSDictionary *)header withParams:(NSDictionary *)params{
+    
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
+    
+    request.HTTPMethod = @"PUT";
+    
+    request.allHTTPHeaderFields = header;//此处为请求头，类型为字典
+    
+    
+    NSString *msg =  [self dictionaryToJson:params];
+    
+    NSData *data = [msg dataUsingEncoding:NSUTF8StringEncoding];
+    
+    request.HTTPBody = data;
+    [SVProgressHUD show];
+    [[[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        
+        NSLog(@"%@",[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
+        if ([[response valueForKey:@"status"] isEqualToString:@"200"]) {
+            [SVProgressHUD dismiss];
+            [self performSelector:@selector(dismiss) withObject:nil afterDelay:0.8];
+            [self dismissViewControllerAnimated:YES completion:nil];
+        } else {
+            [SVProgressHUD dismiss];
+            [SVProgressHUD showErrorWithStatus:@"网络错误"];
+            [self performSelector:@selector(dismiss) withObject:nil afterDelay:0.8];
+            MyLog(@"error == %@",[response valueForKey:@"message"]);
+        }
+        
+    }] resume];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7999A067-4214-400C-8A6D-51ABD2DC238F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My put net</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -2,26 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zppHolder</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)init{
-    self = [super init];
-    if (self) {
-        //设置导航栏标题
-//    self.title = @"导航控制器";
-        self.navigationItem.title = @"导航控制器";
-    }
-    return self;
-}</string>
+	<string>&lt;#* value *#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F16E098E-4D1B-4FE6-80A9-4FC2C58FD75C</string>
+	<string>67E727F8-8A37-4DDE-BF3C-AC3BA4462255</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>navigationItem.title init</string>
+	<string>my holder</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

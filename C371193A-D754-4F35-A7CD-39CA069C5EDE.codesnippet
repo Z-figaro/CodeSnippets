@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-<<<<<<< HEAD
-	<string>zpProperty</string>
-=======
 	<string>zppProperty</string>
->>>>>>> 1cedbb07abf506e49b60b3da03b3ad4b2b66324f
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#typeName#&gt; *&lt;#Name#&gt;;</string>
+	<string>@property (nonatomic, &lt;#typeName#&gt;) &lt;#typeName#&gt; *&lt;#Name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C371193A-D754-4F35-A7CD-39CA069C5EDE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>属性快速生成</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My property</string>
+	<string>zppProperty</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
