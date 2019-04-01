@@ -3,26 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zppBaseMethod</string>
+	<string>zppStringHolder</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Base
--(void)initDataSource{
-    
-}
--(void)initUserInterface{
-    
-}
-</string>
+	<string>@"&lt;# code #&gt;"</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E2E17B1E-E112-40D1-9E96-5C3522BC145F</string>
+	<string>25A518DD-1DF3-4446-B420-941767DDFC7A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>string类型赋值</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My baseMethod</string>
+	<string>zppStringHolder</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-
 	<string>zppSetTableCellData</string>
-
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -28,6 +26,8 @@
 //cell
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
+    
+    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:KUITableViewCellIdertifier];
     
     return cell;
@@ -48,13 +48,15 @@
 -(CGFloat)tableView:(UITableView*)tableView heightForFooterInSection:(NSInteger)section{
     
 }
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    NSLog(@"----点到了cell");
+}
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6F380B53-39C6-4DDA-9E0E-5C8593B758FE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-
 	<key>IDECodeSnippetTitle</key>
 	<string>My_UITableViewDataSource</string>
 	<key>IDECodeSnippetUserSnippet</key>
@@ -63,5 +65,3 @@
 	<integer>2</integer>
 </dict>
 </plist>
-
-
