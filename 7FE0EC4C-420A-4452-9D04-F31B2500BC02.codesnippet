@@ -29,6 +29,11 @@
     cell.backgroundColor = [UIColor yellowColor];
     return cell;
 }
+#pragma mark  定义每个UICollectionView的大小
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    return  CGSizeMake(KScreenWidth /3 - 20,50);
+}
 #pragma mark - 获取分区头尾视图
 //创建 分区头尾视图调用
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
@@ -47,15 +52,19 @@
         footer.backgroundColor = [UIColor yellowColor];
         return footer;
     }
+}
+#pragma mark - cell点击事件
+- (void )collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(nonnull NSIndexPath *)indexPath{
+    &lt;# code #&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7FE0EC4C-420A-4452-9D04-F31B2500BC02</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>collectionDate&amp;delegate</string>
+	<string>collection初始化</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MyCollection</string>
+	<string>zppCollection</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
